@@ -1,5 +1,10 @@
 .App {
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 32px;
+  flex-direction: column;
 }
 
 .App-logo {
@@ -35,4 +40,12 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.alertButton {
+  margin-top: 8px;
+  padding: 8px 16px;
+  border-radius: 8px;
+  width: 160px;
+  cursor: pointer;
 }

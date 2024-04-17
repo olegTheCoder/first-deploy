@@ -1,12 +1,17 @@
 import "./App.css";
-import { MyButton, MyInput } from "first-ui-kit";
 
 function App() {
   return (
     <div className="App">
-      WOW
-      <MyButton color="green">wow</MyButton>
-      <MyInput placeholder="lol" label="lol" isBig={true} />
+      Вы Василий Пидарасов?
+      <button
+        className="alertButton"
+        onClick={() => {
+          alert("Осуждаю !!!");
+        }}
+      >
+        Подтвердить
+      </button>
     </div>
   );
 }
